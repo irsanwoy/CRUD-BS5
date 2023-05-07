@@ -27,7 +27,7 @@
           CRUD <cite title="Source Title">Create Update Delete</cite>
         </figcaption>
       </figure>
-      <a href="kelola.html" type="button" class="btn btn-primary">Tambah Data</a>
+      <a href="kelola.php" type="button" class="btn btn-primary">Tambah Data</a>
       <div class="table-responsive">
         <table class="table align-middle table-hover">
           <thead>
@@ -52,10 +52,10 @@
               </td>
               <td>Jl. Kusuma Negara</td>
               <td>
-                <a href="kelola.html" type="button" class="btn btn-success btn-sm">
+                <a href="kelola.php?ubah=1 type="button" class="btn btn-success btn-sm">
                   Ubah
                 </a>
-                <a href="kelola.html" type="button" class="btn btn-danger btn-sm">
+                <a href="kelola.php" type="button" class="btn btn-danger btn-sm">
                   Hapus
                 </a>
               </td>
@@ -70,12 +70,12 @@
               </td>
               <td>Jl. Kusuma Negara</td>
               <td>
-                <button type="button" class="btn btn-success btn-sm">
+                <a href="kelola.php?ubah=2" type="button" class="btn btn-success btn-sm">
                   Ubah
-                </button>
-                <button type="button" class="btn btn-danger btn-sm">
+                </a>
+                <a href="proses.php?hapus=1" type="button" class="btn btn-danger btn-sm">
                   Hapus
-                </button>
+                </a>
               </td>
             </tr>
           </tbody>
