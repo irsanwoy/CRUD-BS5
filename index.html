@@ -10,72 +10,77 @@
   </head>
 
   <body>
-     <!-- nav -->
-     <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            CRUD-BS5
-          </a>
-        </div>
-      </nav>
-      <!-- judul -->
+    <!-- nav -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> CRUD-BS5 </a>
+      </div>
+    </nav>
+    <!-- judul -->
     <div class="container">
-        <h1 class="mt-4">Data Siswa</h1>
-        <figure>
-            <blockquote class="blockquote">
-              <p>Berisi data siswa yang telah disimpan di database.</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              CRUD <cite title="Source Title">Create Update Delete</cite>
-            </figcaption>
-          </figure>
-          <button type="button" class="btn btn-primary">Tambah Data</button>
-          <div class="table-responsive">
-            <table class="table align-middle table-hover">
-                <thead>
-                    <tr>
-                        <th>No.</th>
-                        <th>NISN</th>
-                        <th>Nama Siswa</th>
-                        <th>Jenis Kelamin</th>
-                        <th>Foto Siswa</th>
-                        <th>Alamat</th>
-                        <th>Aksi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1.</td>
-                        <td>112233</td>
-                        <td>Alexander Kurniawan</td>
-                        <td>Laki-laki</td>
-                        <td>
-                            <img src="img/img1.jpg" style="width: 150px;">
-                        </td>
-                        <td>Jl. Kusuma Negara</td>
-                        <td>
-                            <button type="button" class="btn btn-success btn-sm">Ubah</button>
-                            <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>112234</td>
-                        <td>Susanti</td>
-                        <td>Perempuan</td>
-                        <td>
-                            <img src="img/img2.jpg" style="width: 150px;">
-                        </td>
-                        <td>Jl. Kusuma Negara</td>
-                        <td>
-                            <button type="button" class="btn btn-success btn-sm">Ubah</button>
-                            <button type="button" class="btn btn-danger btn-sm">Hapus</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-          </div>
+      <h1 class="mt-4">Data Siswa</h1>
+      <figure>
+        <blockquote class="blockquote">
+          <p>Berisi data siswa yang telah disimpan di database.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          CRUD <cite title="Source Title">Create Update Delete</cite>
+        </figcaption>
+      </figure>
+      <a href="kelola.html" type="button" class="btn btn-primary">Tambah Data</a>
+      <div class="table-responsive">
+        <table class="table align-middle table-hover">
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>NISN</th>
+              <th>Nama Siswa</th>
+              <th>Jenis Kelamin</th>
+              <th>Foto Siswa</th>
+              <th>Alamat</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>112233</td>
+              <td>Alexander Kurniawan</td>
+              <td>Laki-laki</td>
+              <td>
+                <img src="img/img1.jpg" style="width: 150px" />
+              </td>
+              <td>Jl. Kusuma Negara</td>
+              <td>
+                <a href="kelola.html" type="button" class="btn btn-success btn-sm">
+                  Ubah
+                </a>
+                <a href="kelola.html" type="button" class="btn btn-danger btn-sm">
+                  Hapus
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>112234</td>
+              <td>Susanti</td>
+              <td>Perempuan</td>
+              <td>
+                <img src="img/img2.jpg" style="width: 150px" />
+              </td>
+              <td>Jl. Kusuma Negara</td>
+              <td>
+                <button type="button" class="btn btn-success btn-sm">
+                  Ubah
+                </button>
+                <button type="button" class="btn btn-danger btn-sm">
+                  Hapus
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </body>
 </html>
